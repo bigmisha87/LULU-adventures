@@ -1,0 +1,104 @@
+{
+  "source": "New folder/running sprite.png",
+  "sourceWidth": 5504,
+  "sourceHeight": 3072,
+  "sourceGrid": {
+    "columns": 4,
+    "rows": 2,
+    "cellWidth": 1376,
+    "cellHeight": 1536
+  },
+  "atlas": {
+    "file": "lulu-run-atlas.png",
+    "columns": 8,
+    "rows": 1,
+    "frameWidth": 640,
+    "frameHeight": 512,
+    "baseline": 474,
+    "scale": 0.41916167664670656
+  },
+  "fps": 12,
+  "frames": [
+    {
+      "index": 0,
+      "file": "frame-01.png",
+      "sourceBounds": {
+        "left": 61,
+        "top": 242,
+        "width": 1265,
+        "height": 1002
+      }
+    },
+    {
+      "index": 1,
+      "file": "frame-02.png",
+      "sourceBounds": {
+        "left": 53,
+        "top": 268,
+        "width": 1274,
+        "height": 952
+      }
+    },
+    {
+      "index": 2,
+      "file": "frame-03.png",
+      "sourceBounds": {
+        "left": 60,
+        "top": 238,
+        "width": 1261,
+        "height": 999
+      }
+    },
+    {
+      "index": 3,
+      "file": "frame-04.png",
+      "sourceBounds": {
+        "left": 55,
+        "top": 218,
+        "width": 1268,
+        "height": 961
+      }
+    },
+    {
+      "index": 4,
+      "file": "frame-05.png",
+      "sourceBounds": {
+        "left": 59,
+        "top": 239,
+        "width": 1267,
+        "height": 966
+      }
+    },
+    {
+      "index": 5,
+      "file": "frame-06.png",
+      "sourceBounds": {
+        "left": 47,
+        "top": 240,
+        "width": 1273,
+        "height": 980
+      }
+    },
+    {
+      "index": 6,
+      "file": "frame-07.png",
+      "sourceBounds": {
+        "left": 52,
+        "top": 239,
+        "width": 1272,
+        "height": 971
+      }
+    },
+    {
+      "index": 7,
+      "file": "frame-08.png",
+      "sourceBounds": {
+        "left": 51,
+        "top": 225,
+        "width": 1269,
+        "height": 994
+      }
+    }
+  ],
+  "processing": "Boundary-connected white-background removal; uniform scale; centered silhouettes and shared foot baseline. No newly generated poses."
+}

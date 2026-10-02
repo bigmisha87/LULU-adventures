@@ -1,0 +1,17 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import vm from 'node:vm';
+import {fileURLToPath} from 'node:url';
+const root=path.join(path.dirname(fileURLToPath(import.meta.url)),'dist');
+const html=fs.readFileSync(path.join(root,'index.html'),'utf8');
+new vm.Script(fs.readFileSync(path.join(root,'app.js'),'utf8'));
+const expected=['street-day','street-night','shops','vet','pet-shop','apartment-day','apartment-night','agency','beach-day','beach-night','enemies','items','moves','moshe','finale','events','lulu'].map(f=>'assets/'+f+'.webp');
+const staticRefs=[...html.matchAll(/(?:src|href)="([^"]+)"/g)].map(m=>m[1]).filter(v=>!v.startsWith('#')&&!v.startsWith('data:')&&!v.startsWith('http'));
+expected.push(...['lulu-new','moshe-new','lulu-run-atlas','lulu-run-manual','lulu-jump','lulu-bark','lulu-pee','lulu-puddle','street-night-background'].map(f=>'assets/'+f+'.webp'));
+const individualManifest=JSON.parse(fs.readFileSync(path.join(root,'assets/individual/manifest.json'),'utf8'));
+expected.push(...individualManifest.map(a=>a.web));
+expected.push(...fs.readdirSync(path.join(root,'assets/keyframes')).filter(f=>f.endsWith('.webp')).map(f=>'assets/keyframes/'+f));
+const missing=[...new Set([...staticRefs,...expected])].filter(file=>!fs.existsSync(path.join(root,file)));
+if(missing.length)throw new Error('Missing assets: '+missing.join(', '));
+if(!html.includes('lang="he" dir="rtl"'))throw new Error('Missing Hebrew RTL');
+console.log(JSON.stringify({javascript:'valid',missingAssets:0,requiredImages:expected.length,hebrewRTL:true}));

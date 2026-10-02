@@ -1,0 +1,78 @@
+{
+  "agency.webp": {
+    "width": 1672,
+    "height": 941
+  },
+  "apartment-day.webp": {
+    "width": 1672,
+    "height": 941
+  },
+  "apartment-night.webp": {
+    "width": 1672,
+    "height": 941
+  },
+  "beach-day.webp": {
+    "width": 1672,
+    "height": 941
+  },
+  "beach-night.webp": {
+    "width": 1672,
+    "height": 941
+  },
+  "enemies.webp": {
+    "width": 1024,
+    "height": 1536
+  },
+  "events.webp": {
+    "width": 1680,
+    "height": 630
+  },
+  "finale.webp": {
+    "width": 1672,
+    "height": 941
+  },
+  "items.webp": {
+    "width": 1024,
+    "height": 1536
+  },
+  "moshe.webp": {
+    "width": 941,
+    "height": 1672
+  },
+  "moves.webp": {
+    "width": 1199,
+    "height": 1312
+  },
+  "pet-shop.webp": {
+    "width": 1672,
+    "height": 941
+  },
+  "shops.webp": {
+    "width": 1672,
+    "height": 941
+  },
+  "street-day.webp": {
+    "width": 1672,
+    "height": 941
+  },
+  "vet.webp": {
+    "width": 1672,
+    "height": 941
+  },
+  "street-original.webp": {
+    "width": 1672,
+    "height": 941
+  },
+  "street-sunset.webp": {
+    "width": 1672,
+    "height": 941
+  },
+  "street-night.webp": {
+    "width": 1672,
+    "height": 941
+  },
+  "lulu.webp": {
+    "width": 1536,
+    "height": 1024
+  }
+}

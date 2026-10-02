@@ -1,0 +1,130 @@
+[
+  {
+    "group": "enemies",
+    "id": "pigeon",
+    "title": "יונה",
+    "source": "C:/Users/misha/Desktop/LULU ADVENTURES/assets/individual/enemies/pigeon.png",
+    "web": "assets/individual/enemies/pigeon.webp",
+    "alpha": true
+  },
+  {
+    "group": "enemies",
+    "id": "crow",
+    "title": "עורב",
+    "source": "C:/Users/misha/Desktop/LULU ADVENTURES/assets/individual/enemies/crow.png",
+    "web": "assets/individual/enemies/crow.webp",
+    "alpha": true
+  },
+  {
+    "group": "enemies",
+    "id": "big-dog",
+    "title": "כלב גדול",
+    "source": "C:/Users/misha/Desktop/LULU ADVENTURES/assets/individual/enemies/big-dog.png",
+    "web": "assets/individual/enemies/big-dog.webp",
+    "alpha": true
+  },
+  {
+    "group": "enemies",
+    "id": "mouse",
+    "title": "עכבר",
+    "source": "C:/Users/misha/Desktop/LULU ADVENTURES/assets/individual/enemies/mouse.png",
+    "web": "assets/individual/enemies/mouse.webp",
+    "alpha": true
+  },
+  {
+    "group": "enemies",
+    "id": "rat",
+    "title": "חולדה",
+    "source": "C:/Users/misha/Desktop/LULU ADVENTURES/assets/individual/enemies/rat.png",
+    "web": "assets/individual/enemies/rat.webp",
+    "alpha": true
+  },
+  {
+    "group": "enemies",
+    "id": "street-sweeper",
+    "title": "מכונת ניקוי",
+    "source": "C:/Users/misha/Desktop/LULU ADVENTURES/assets/individual/enemies/street-sweeper.png",
+    "web": "assets/individual/enemies/street-sweeper.webp",
+    "alpha": true
+  },
+  {
+    "group": "enemies",
+    "id": "robot-vacuum",
+    "title": "שואב אבק",
+    "source": "C:/Users/misha/Desktop/LULU ADVENTURES/assets/individual/enemies/robot-vacuum.png",
+    "web": "assets/individual/enemies/robot-vacuum.webp",
+    "alpha": true
+  },
+  {
+    "group": "enemies",
+    "id": "cat",
+    "title": "חתול",
+    "source": "C:/Users/misha/Desktop/LULU ADVENTURES/assets/individual/enemies/cat.png",
+    "web": "assets/individual/enemies/cat.webp",
+    "alpha": true
+  },
+  {
+    "group": "items",
+    "id": "squeaky-ball",
+    "title": "כדור צפצפה",
+    "source": "C:/Users/misha/Desktop/LULU ADVENTURES/assets/individual/items/squeaky-ball.png",
+    "web": "assets/individual/items/squeaky-ball.webp",
+    "alpha": true
+  },
+  {
+    "group": "items",
+    "id": "rubber-chicken",
+    "title": "תרנגולת גומי",
+    "source": "C:/Users/misha/Desktop/LULU ADVENTURES/assets/individual/items/rubber-chicken.png",
+    "web": "assets/individual/items/rubber-chicken.webp",
+    "alpha": true
+  },
+  {
+    "group": "items",
+    "id": "plastic-pig",
+    "title": "חזיר פלסטיק",
+    "source": "C:/Users/misha/Desktop/LULU ADVENTURES/assets/individual/items/plastic-pig.png",
+    "web": "assets/individual/items/plastic-pig.webp",
+    "alpha": true
+  },
+  {
+    "group": "items",
+    "id": "treat-bag",
+    "title": "שקית חטיפים",
+    "source": "C:/Users/misha/Desktop/LULU ADVENTURES/assets/individual/items/treat-bag.png",
+    "web": "assets/individual/items/treat-bag.webp",
+    "alpha": true
+  },
+  {
+    "group": "items",
+    "id": "bone-treat",
+    "title": "חטיף עצם",
+    "source": "C:/Users/misha/Desktop/LULU ADVENTURES/assets/individual/items/bone-treat.png",
+    "web": "assets/individual/items/bone-treat.webp",
+    "alpha": true
+  },
+  {
+    "group": "items",
+    "id": "rubber-toy",
+    "title": "משהו מגומי",
+    "source": "C:/Users/misha/Desktop/LULU ADVENTURES/assets/individual/items/rubber-toy.png",
+    "web": "assets/individual/items/rubber-toy.webp",
+    "alpha": true
+  },
+  {
+    "group": "items",
+    "id": "paw-token",
+    "title": "אסימון כפה",
+    "source": "C:/Users/misha/Desktop/LULU ADVENTURES/assets/individual/items/paw-token.png",
+    "web": "assets/individual/items/paw-token.webp",
+    "alpha": true
+  },
+  {
+    "group": "items",
+    "id": "water-bowl",
+    "title": "קערת מים",
+    "source": "C:/Users/misha/Desktop/LULU ADVENTURES/assets/individual/items/water-bowl.png",
+    "web": "assets/individual/items/water-bowl.webp",
+    "alpha": true
+  }
+]
